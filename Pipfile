@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+# pylint = "*"
+# autopep8 = "*"
+
+[packages]
+sanic = "*"
+jinja2 = "*"
+aiomysql = "*"
+sqlalchemy = "*"
+aioredis = "*"
+motor = "*"
+asyncio = "*"
+aiohttp = "*"
+pyopenssl = "*"
+python-snappy = "*"
+asyncnsq = "*"
+pynsq = "*"
+pycrypt = "*"
+
+[requires]
+python_version = "3.7"
